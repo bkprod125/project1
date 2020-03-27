@@ -1,0 +1,248 @@
+body{
+	margin: 0;
+	overflow-x: hidden;
+}
+
+.banner1{
+	width: auto;
+	height: 120;
+	position: relative; 
+	left: 180;
+	top: 10; 	
+}
+
+.logo{
+	width: auto;
+	height: 150;
+	position: relative;
+	left: 50;
+	top: 30;
+}
+
+na {
+	display: block;
+	width: 100%;
+	height: 40;
+	background-color: orangered;
+	position: relative;
+	top: 60;
+}
+
+na ul{
+	float: left;
+}
+
+na ul li{
+	
+	float: left;
+	list-style-type: none;
+	
+	position: relative;
+	right: 15;
+	top: -15;
+	
+	border-right: orange solid 2px;
+	
+	border-left: orange solid
+	2px; 
+}
+
+.li1{
+	border-left: none;
+}
+
+.li2{
+	border-right: none;
+}
+
+na ul li a{
+	text-decoration: none;
+	color: white;
+	display: inline-block;
+	margin-left: 28;
+	margin-right: 28;
+	margin-top: 10;
+	margin-bottom: 10;
+	font-size: auto;
+}
+
+.pos{
+	position: relative;
+	top: 60;
+}
+
+.ban1{
+	width: 100%;
+	height: auto;	
+}
+
+.moban{
+	float: right;
+	background-color: black;
+	
+	display: block;
+	width: 700;
+	height: 170;
+	
+	position: relative;
+	bottom: 180;
+	right: 0;
+}
+
+.text_moban{
+	color: white;
+	font-weight: 800;
+	font-size: 38;
+	
+	position: relative;
+	top: -5;
+	left: 100;
+}
+
+label{
+	display: inline-block;
+	width: 300; 
+	height: auto;
+}
+
+input, select{
+	width: 215;
+}
+
+textarea{
+	width: 430;
+	height: 200;	
+}
+
+.formhead{
+	color: orangered;
+	position: relative;
+	left: 25;
+	font-weight: 1000;
+}
+
+.formulaire{
+	color: darkslategrey;
+	float: left;
+	width: 75%;
+
+	margin-left: 20;
+	padding-left: 30;
+	
+	position: relative;
+	bottom: 120;
+	
+	border: thin grey solid;
+	border-radius: 10px;
+	background-color: whitesmoke;	
+}
+
+.formdesc{
+	position: relative;
+	right: 10;
+}
+
+.motiv{
+	position: relative;
+	bottom: 165;
+}
+
+aside{
+	float: left;
+	width: 20%;
+	display: block
+}
+
+.agendahead{
+	display: block;
+	position: relative;
+	left: 1090;
+	bottom: 40;
+	color: orangered;
+	font-weight: 100;
+}
+
+.agenda{
+	display: block;
+	width: 210;
+	margin-left: 20;
+	padding-left: 10;
+	position: relative;
+	bottom: 120;
+	left: ;
+	border: solid thin grey;
+	border-radius: 10px;
+}
+
+.agenda span{
+	color: orangered;
+}
+
+.parte{
+	display: block;
+	width: 210;
+	height: auto;
+	margin-left: 20;
+	padding: 10;
+	position: relative;
+	bottom: 60;
+}
+
+.parte{
+	border: solid thin grey;
+	border-radius: 10px;
+}
+
+.parte div img{
+	width: 170;
+	height: auto;
+	border:  20px solid;
+	border-color:lightgray;
+	margin-bottom: 5;
+}
+
+.partehead{
+	color: orangered;
+	font-weight: 100;
+	display: block;
+	position: relative;
+	left: 1090;
+	top: 410;
+}
+
+footer{
+	clear: both;
+	border-top: thin grey solid;
+
+}
+
+footer div h3{
+	color: darkred;
+	display: inline-block;
+	width: 200;
+	text-align: left;
+	margin-left: 80;
+	margin-top: 20;
+	position: relative;
+	top: 30;
+	left: 20;
+}
+
+footer div{
+	float: left;
+	
+}
+
+footer div ul{
+	padding: 0;
+	position: relative;
+	left: 100;
+	
+}
+
+footer div ul li{
+	list-style-type: none;
+	display: list-item;
+	padding: 5;
+	font-size: 17;
+}
